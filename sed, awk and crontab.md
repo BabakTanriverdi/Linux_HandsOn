@@ -178,7 +178,7 @@ Laura Taylor
 Ashley White
 ```
 
-# Delete lines that contain the word "life" from the file life.txt
+- Delete lines that contain the word "life" from the file life.txt
 
 ```bash
 sed '/life/d' life.txt
@@ -215,7 +215,7 @@ sed 's/ /\t\t/g' names.txt
 - Delete line 5 of life.txt
 
 ```bash
-sed '12d' life.txt
+sed '5d' life.txt
 ```
 
 - Delete a last line
@@ -477,7 +477,7 @@ crontab -u username -e  # edit other users's crontab file
 - Step 1: Install the ‘cronie’ package.
 
 ```bash
-sudo yum install cronie -y
+sudo dnf install cronie -y
 ```
 - Step 2: Enable the ‘cronie’ service.
 
@@ -517,12 +517,12 @@ tail -f date.log # watch live
 - Create a cron task updates and upgrades our server every Sunday at 3 a.m.
 
 ```bash
-0 3 * * sun sudo yum update -y
+0 3 * * sun sudo dnf update -y
 ```
 
 - List the cron tasks.
 
-#Send Alerts To Slack With Bash Shell Script
+# Send Alerts To Slack With Bash Shell Script
 
 - https://easyoradba.com/2018/10/29/send-alerts-to-slack-with-bash-shell-script/
 
@@ -546,14 +546,14 @@ tail -f date.log # watch live
  - Go to incoming webhooks and Activate incoming webhooks
  - Add New Webhook to Workspace > 
  - You can see the sample of your webhook cURL then
-   forexample: " curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/TXXXX/BXXXX/XXXXXXXX"
+   forexample: " curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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 "
                  
 ```
 
 ```bash
 today_date=$(date +"%Y_%m_%d_%H_%M") #(date "+%Y-%m-%d")
 messages="Successful process....! $today_date - backup is ready"
-curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$messages\"}" https://hooks.slack.com/services/XXXXXXX/XXXXX/XXXXXXXXX
+curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$messages\"}" https://hooks.slack.com/services/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
 ```
 
 ## Part 4 - SCP – Secure Copy Protocol
