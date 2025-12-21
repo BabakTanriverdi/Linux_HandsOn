@@ -29,10 +29,10 @@ mkdir linux-lessons
 cd linux-lessons
 ```
 
-- Create a `text` file named `welcome.txt`.
+- Create a `text` file named `lines.txt`.
 
 ```txt
-Welcome to the linux lessons
+lines to the linux lessons
 line 2
 line 3
 line 4
@@ -49,44 +49,44 @@ line 14
 Line 15
 ```
 
-- Show the first 10 lines of welcome.txt.
+- Show the first 10 lines of lines.txt.
 
 ```bash
-head welcome.txt
+head lines.txt
 ```
 
-- Show the first 5 lines of welcome.txt.
+- Show the first 5 lines of lines.txt.
 
 ```bash
-head -5 welcome.txt
+head -5 lines.txt
 ```
 
-- Show the last 10 lines of welcome.txt.
+- Show the last 10 lines of lines.txt.
 
 ```bash
-tail welcome.txt
+tail lines.txt
 ```
 
-- Show the last 5 lines of welcome.txt.
+- Show the last 5 lines of lines.txt.
 
 ```bash
-tail -n 5 welcome.txt
+tail -n 5 lines.txt
 
-#tail -5 welcome.txt
+#tail -5 lines.txt
 ```
 
-- Show from line number ‘n’ till the end of welcome.txt.
+- Show from line number ‘n’ till the end of lines.txt.
 
 ```bash
-tail -n +10 welcome.txt
+tail -n +10 lines.txt
 
-#tail +10 welcome.txt
+#tail +10 lines.txt
 ```
 
-- Display the welcome.txt file on the screen.
+- Display the lines.txt file on the screen.
 
 ```bash
-cat welcome.txt
+cat lines.txt
 ```
 
 - Create three files with echo command and name them file1 file2 file3.
@@ -119,52 +119,52 @@ Today is rainy
 
 - After the last line, type and hold the Control (Ctrl) key and press d.
 
-- View the welcome.txt file with the `more` command.
+- View the lines.txt file with the `more` command.
 
 ```bash
-more welcome.txt
+more lines.txt
 ```
 
-- View the welcome.txt file with the `less` command.
+- View the lines.txt file with the `less` command.
 
 ```bash
-less welcome.txt
+less lines.txt
 ```
 
 - The main difference between more and less is that less command is faster because it does not load the entire file at once and allows navigation though file using page up/down keys.
 
-- Display welcome.txt file in reverse.
+- Display lines.txt file in reverse.
 
 ```bash
-tac welcome.txt
+tac lines.txt
 ```
 
-- Create reverse-welcome.txt in reverse of welcome.txt.
+- Create reverse-lines.txt in reverse of lines.txt.
 
 ```bash
-tac welcome.txt > reverse-welcome.txt
+tac lines.txt > reverse-lines.txt
 ```
 
 ## Part 2 - Searching Files
 
 ### `find` command
 
-- Find all the files whose name is welcome.txt in a current working directory.
+- Find all the files whose name is lines.txt in a current working directory.
 
 ```bash
-find . -name welcome.txt
+find . -name lines.txt
 ```
 
-- Find all the files under /home directory with name welcome.txt.
+- Find all the files under /home directory with name lines.txt.
 
 ```bash
-find /home -name welcome.txt
+find /home -name lines.txt
 ```
 
-- Find all the files whose name is welcome.txt and contains both capital and small letters in /home directory.
+- Find all the files whose name is lines.txt and contains both capital and small letters in /home directory.
 
 ```bash
-find /home -iname welcome.txt
+find /home -iname lines.txt
 ```
 
 - Find all directories whose name is linux-lessons in /home directory.
@@ -320,7 +320,7 @@ grep -v "kernel" linux.txt
 - The `^` regular expression pattern specifies the start of a line. This can be used in grep to match the lines which start with the given string or pattern.
 
 ```bash
-grep "^li" welcome.txt
+grep "^li" lines.txt
 ```
 
 - The $ regular expression pattern specifies the end of a line. This can be used in grep to match the lines which end with the given string or pattern.
@@ -352,19 +352,19 @@ grep -f pattern.txt linux.txt grep.txt
   - Use -A and a number of lines to display after a match.
 
   ```bash
-  grep -A3 "line 5" welcome.txt # this command prints three lines after the match.
+  grep -A3 "line 5" lines.txt # this command prints three lines after the match.
   ```
 
   - Use -B and a number of lines to display before a match.
 
   ```bash
-  grep -B2 "line 5" welcome.txt # this command prints two lines before the match.
+  grep -B2 "line 5" lines.txt # this command prints two lines before the match.
   ```
 
   - Use -C and a number of lines to display before and after the match.
 
   ```bash
-  grep -C4 "line 5" welcome.txt # this command prints four lines before and after the match.
+  grep -C4 "line 5" lines.txt # this command prints four lines before and after the match.
   ```
 
 - We can also use `grep` command with | (pipe).
