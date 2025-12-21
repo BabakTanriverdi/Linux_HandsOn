@@ -62,17 +62,17 @@ Each folder contains:
 
 | No  | Topic                         | Folder                           |
 | --- | ----------------------------- | -------------------------------- |
-| 01  | Managing Files in Linux       | [Linux-Plus-01](./Linux-Plus-01) |
-| 02  | Linux Environment Variables   | [Linux-Plus-02](./Linux-Plus-02) |
-| 03  | Managing Users and Groups     | [Linux-Plus-03](./Linux-Plus-03) |
-| 04  | Package Managers  | [Linux-Plus-04](./Linux-Plus-04) |
-| 05  | Filters and Control Operators | [Linux-Plus-05](./Linux-Plus-05) |
+| 01  | Managing Files in Linux                  | [Linux-Plus-01](./Linux-Plus-01) |
+| 02  | Linux Environment Variables          | [Linux-Plus-02](./Linux-Plus-02) |
+| 03  | Managing Users and Groups         | [Linux-Plus-03](./Linux-Plus-03) |
+| 04  | Package Managers                         | [Linux-Plus-04](./Linux-Plus-04) |
+| 05  | Filters and Control Operators         | [Linux-Plus-05](./Linux-Plus-05) |
 | 06  | sed & awk command and crontab | [Linux-Plus-06](./Linux-Plus-06) |
-| 07  | Shell Scripting Basics        | [Linux-Plus-07](./Linux-Plus-07) |
-| 08  | Conditional Statements        | [Linux-Plus-08](./Linux-Plus-08) |
-| 09  | Loops                         | [Linux-Plus-09](./Linux-Plus-09) |
-| 10 | Shell Scripting / Functions   | [Linux-Plus-10](./Linux-Plus-10) |
-| ... | ...                           | ...                              |
+| 07  | Shell Scripting Basics                      | [Linux-Plus-07](./Linux-Plus-07) |
+| 08  | Conditional Statements                  | [Linux-Plus-08](./Linux-Plus-08) |
+| 09  | Shell Scripting / Loops                    | [Linux-Plus-09](./Linux-Plus-09) |
+| 10 | Shell Scripting / Functions               | [Linux-Plus-10](./Linux-Plus-10) |
+
 
 ---
 
