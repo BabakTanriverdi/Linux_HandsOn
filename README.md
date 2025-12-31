@@ -62,6 +62,7 @@ Each folder contains:
 
 | No  | Topic                         | Folder                           |
 | --- | ----------------------------- | -------------------------------- |
+| 00  | Extra handson                                 | [Linux-Plus-Extra](./Linux-Extra) |
 | 01  | Managing Files in Linux                  | [Linux-Plus-01](./Linux-Plus-01) |
 | 02  | Linux Environment Variables          | [Linux-Plus-02](./Linux-Plus-02) |
 | 03  | Managing Users and Groups         | [Linux-Plus-03](./Linux-Plus-03) |
